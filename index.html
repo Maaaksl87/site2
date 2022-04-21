@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Власна Html форма</title>
+</head>
+
+<body>
+    <h1>Щоб записатися на курс введіть свої данні в форму</h1>
+    <hr>
+    <form action="" method="">
+        <br>
+        <label>
+            Імя:
+            <input type="text" name="fio" placeholder="Введіть імя..." >
+        </label>
+
+        <br>
+        <br>
+
+        <label>
+            Прізвище:
+            <input type="text" name="fio" placeholder="Введіть прізвище...">
+        </label>
+
+        <br>
+        <br>
+        <label>Скільки вам років
+            <input type="number" name="age" placeholder="Скільки років">
+        </label>
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>
+                <h3>Яку мову програмування бажаєте вивчати?</h3>
+            </legend>
+            <label>
+                <input type="checkbox" name="fav" value="language">Java
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="fav" value="language">JavaScript
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="fav" value="language">Python
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="fav" value="language">C++
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="fav" value="language">C
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="fav" value="language">C#
+            </label>
+            <br>
+            <label>Ще щось хочете додати?</label>
+            <br>
+            <textarea name="comment" placeholder="Введіть додаткову інформацію..."></textarea>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <h3>Як ви себе оцінюєте?</h3>
+            </legend>
+            <label>
+                <input type="radio" name="fav" value="levl">Нічого не знаю(Новачок)
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="fav" value="levl">Маю найменші знання,хочу продовжувати наватись
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="fav" value="levl">Уже знаю деяку мову програмування але хотілось покращити
+                знання
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="fav" value="levl">Цілком знаю іншу мову програмування та хочу вивчити нову
+            </label>
+
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>
+                <h3>У вас є досвід роботи?</h3>
+            </legend>
+
+            <select name="work">
+                <option value="1">ні, зовсім немає,я новачок</option>
+                <option value="2">лише проходив курси</option>
+                <option value="3">стажувався у компанії</option>
+                <option value="4">працвав незначний термін у компанії</option>
+                <option value="5">зараз працюю у компанії </option>
+                <option value="6">довгий час працюю у компанії</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>
+                <h3>Можете вказати додаткову інформацію</h3>
+            </legend>
+            <textarea name="comment" placeholder="Введіть додаткову інформацію..."></textarea>
+        </fieldset>
+        <br>
+        <br>
+
+        <label>Даю згоду на обробку персональних данних</label>
+        <input type="checkbox" required>
+        <br>
+        <br>
+        <button type="reset">Стерти</button>
+        <button type="submit">ВІДПРАВИТИ</button>
+
+    </form>
+    <hr>
+</body>
+
+</html>
